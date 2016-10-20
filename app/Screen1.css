@@ -1,0 +1,60 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_8 */
+#Screen1_mobilebutton_8 {
+
+}
+.ui-btn.Screen1_mobilebutton_8 {
+
+}
+/* mobilecontainer */
+.ui-content.Screen1_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_2 */
+.Screen1_mobilelabel_2 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobileimage_3 */
+.Screen1_mobileimage_3 {
+	margin: 4px 0px 4px 0px;
+	width: 148px; height: 149px;
+	display: block;
+}
+/* mobilebutton_4 */
+#Screen1_mobilebutton_4 {
+
+}
+.ui-btn.Screen1_mobilebutton_4 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobileimage_5 */
+.Screen1_mobileimage_5 {
+	margin: 4px 0px 4px 0px;
+	width: 135px; height: 126px;
+	display: block;
+}
+/* mobilebutton_6 */
+#Screen1_mobilebutton_6 {
+
+}
+.ui-btn.Screen1_mobilebutton_6 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilelabel_9 */
+.Screen1_mobilelabel_9 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.Screen1_mobilefooter {
+	min-height:38px;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Screen1
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/winter/winter.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery-ui-youtube/jquery.ui.youtube.js">
+        </script>
+        <script type="text/javascript" src="https://www.youtube.com/iframe_api">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="Screen1" id="Screen1" class="type-interior"
+        data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="f" name="mobileheader" id="Screen1_mobileheader" class="Screen1_mobileheader">
+                <h1 dsid="mobileheader">
+                    Bible Hub
+                </h1>
+                <!-- mobilebutton_8 --><!--
+                --><a data-role="button" name="mobilebutton_8" dsid="mobilebutton_8" class="Screen1_mobilebutton_8 ui-btn-left"
+                style='min-height:20px; ' id="Screen1_mobilebutton_8" data-corners="true" data-icon="arrow-l"
+                data-iconpos="notext" x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="f" tabindex="3">
+                Button
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Screen1_mobilecontainer" name="mobilecontainer" class="Screen1_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="f">
+                <link href="Screen1.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Screen1.js">
+                </script>
+                <!-- mobilelabel_2 -->
+                <div name="mobilelabel_2" id="Screen1_mobilelabel_2" dsid="mobilelabel_2" data-role="appery_label"
+                class="Screen1_mobilelabel_2">
+                    Please Select One.
+                </div>
+                <!-- mobileimage_3 -->
+                <img class="Screen1_mobileimage_3" src="../img/screen-0.jpg" id="Screen1_mobileimage_3"
+                dsid="mobileimage_3" name="mobileimage_3" />
+                <!-- mobilebutton_4 --><!--
+                --><a data-role="button" name="mobilebutton_4" dsid="mobilebutton_4" class="Screen1_mobilebutton_4"
+                id="Screen1_mobilebutton_4" data-corners="true" data-icon="navigation" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline="true" data-mini="false" data-theme="f"
+                tabindex="1">
+                NIV Bible
+                </a><!--
+                --><!-- mobileimage_5 -->
+                <img class="Screen1_mobileimage_5" src="../img/a_476932419_Bible.png" id="Screen1_mobileimage_5"
+                dsid="mobileimage_5" name="mobileimage_5" />
+                <!-- mobilebutton_6 --><!--
+                --><a data-role="button" name="mobilebutton_6" dsid="mobilebutton_6" class="Screen1_mobilebutton_6"
+                id="Screen1_mobilebutton_6" data-corners="true" data-icon="navigation" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline="true" data-mini="false" data-theme="f"
+                tabindex="2">
+                KJV Bible
+                </a><!--
+                --><!-- mobilelabel_9 -->
+                <div name="mobilelabel_9" id="Screen1_mobilelabel_9" dsid="mobilelabel_9" data-role="appery_label"
+                class="Screen1_mobilelabel_9">
+                    All the links will take you straight to biblehub.com
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Screen1_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="Screen1_mobilefooter" data-theme="f">
+            </div>
+        </div>
+    </body>
+
+</html>

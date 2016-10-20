@@ -1,0 +1,52 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_2 */
+#BibleMovie_mobilebutton_2 {
+
+}
+.ui-btn.BibleMovie_mobilebutton_2 {
+
+}
+/* mobilecontainer */
+.ui-content.BibleMovie_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* youtube_3 */
+.BibleMovie_youtube_3 {
+	margin: 4px 0px 4px 0px;
+	width: 100%; height: 240px;
+	display: block;
+}
+/* youtube_4 */
+.BibleMovie_youtube_4 {
+	margin: 4px 0px 4px 0px;
+	width: 100%; height: 240px;
+	display: block;
+}
+/* youtube_5 */
+.BibleMovie_youtube_5 {
+	margin: 4px 0px 4px 0px;
+	width: 100%; height: 240px;
+	display: block;
+}
+/* mobilebutton_14 */
+#BibleMovie_mobilebutton_14 {
+
+}
+.ui-btn.BibleMovie_mobilebutton_14 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilelabel_15 */
+.BibleMovie_mobilelabel_15 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.BibleMovie_mobilefooter {
+	min-height:38px;
+}
